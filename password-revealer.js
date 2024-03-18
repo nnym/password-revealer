@@ -1,6 +1,5 @@
 const root = document.documentElement;
 const revealed = new Set;
-const icons = new Map;
 
 let toggled;
 

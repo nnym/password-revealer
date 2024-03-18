@@ -1,7 +1,7 @@
 This Firefox extension reveals password inputs under the cursor and all password
 inputs when a shortcut (by default `A-P`) is activated.
 
-Unlike many similar extensions, this extension works with dynamic loaded inputs.
+Unlike many similar extensions, this extension works with dynamically loaded inputs.
 Unlike [Firefox's experimental feature](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Experimental_features#toggle_password_display),
 this extension makes `C-z` and `C-Z` work (because it changes `type` to `text`).
 
