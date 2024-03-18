@@ -25,7 +25,7 @@ loaded only until it's closed.
 6. Select the release from step 3.
 
 ### building
-7zip and GNU Make are required.
+7zip and Make are required.
 
 ```
 make
