@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "Password Revealer",
+	"version": "0",
+	"description": "Reveals passwords when hovered over by the cursor.",
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "tjmnkrajyej@gmail.com"
+		}
+	},
+
+	"background": {
+		"scripts": ["command.js"]
+	},
+
+	"content_scripts": [{
+		"run_at": "document_start",
+		"matches": ["<all_urls>"],
+		"js": ["password-revealer.js"]
+	}],
+
+	"commands": {
+		"toggle": {
+			"description": "toggle password visibility",
+			"suggested_key": {
+				"default": "Alt+Shift+P"
+			}
+		}
+	}
+}
