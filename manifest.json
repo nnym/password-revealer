@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Password Revealer",
-	"version": "0",
-	"description": "Reveals passwords when hovered over by the cursor.",
+	"version": "1",
+	"description": "Reveals passwords under the cursor.",
 
 	"browser_specific_settings": {
 		"gecko": {
